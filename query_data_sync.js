@@ -1,0 +1,2 @@
+import{o}from"./handle-events.CrbRqJIJ.js";import{c as t}from"./query.store.Cdh5gs4w.js";import"./utils.CxRU1WEI.js";import"./store.BmJfiXnC.js";import"./index.TP_rNRYl.js";import"./_commonjsHelpers.D6-XlEtG.js";import"./index.K5Rn1T6c.js";import"./index.3whys8t3.js";import"./error.DTrqF-6o.js";import"./auth.store.BZEp15MP.js";import"./constants.hnv2ohDv.js";import"./virtual.CiZmm82b.js";import"./client.B9YBqyHK.js";//! clear currentQuery cache when the user navigates away from the edit page
+o(()=>{window.location.pathname.endsWith("/edit")||t.set(null)});
