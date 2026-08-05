@@ -1,0 +1,258 @@
+1. Git Configuration
+git config --global user.name "Your Name"
+
+➡️ Set your Git username.
+
+git config --global user.email "your@email.com"
+
+➡️ Set your Git email.
+
+git config --list
+
+➡️ Display all Git configurations.
+
+📁 2. Repository Commands
+git init
+
+➡️ Initialize a new Git repository.
+
+git clone <repository-url>
+
+➡️ Copy an existing repository from GitHub.
+
+📄 3. Check Repository Status
+git status
+
+➡️ Show the repository status.
+
+git status --ignored
+
+➡️ Show ignored files.
+
+➕ 4. Staging Commands
+git add filename
+
+➡️ Add one file.
+
+git add .
+
+➡️ Add all files.
+
+git restore --staged filename
+
+➡️ Remove a file from the staging area.
+
+💾 5. Commit Commands
+git commit -m "message"
+
+➡️ Save staged changes.
+
+📜 6. History Commands
+git log
+
+➡️ Show commit history.
+
+git log --oneline
+
+➡️ One-line commit history.
+
+git log --graph --all
+
+➡️ Show all branches as a graph.
+
+git show
+
+➡️ Show details of the latest commit.
+
+git show <commit-id>
+
+➡️ Show details of a specific commit.
+
+🔍 7. Difference Command
+git diff
+
+➡️ Show unstaged changes.
+
+🌐 8. Remote Repository Commands
+git remote add origin <repository-url>
+
+➡️ Connect local repository to GitHub.
+
+git remote -v
+
+➡️ View remote repositories.
+
+🚀 9. Push Commands
+git push
+
+➡️ Upload commits.
+
+git push -u origin main
+
+➡️ First push for the main branch.
+
+git push -u origin branch-name
+
+➡️ First push for a new branch.
+
+git push origin v1.0
+
+➡️ Push a tag.
+
+📥 10. Pull Command
+git pull
+
+➡️ Download latest changes.
+
+🌿 11. Branch Commands
+git branch
+
+➡️ List local branches.
+
+git branch -a
+
+➡️ List all local and remote branches.
+
+git branch -v
+
+➡️ Show branch details.
+
+git branch branch-name
+
+➡️ Create a branch.
+
+git branch -m new-name
+
+➡️ Rename current branch.
+
+git branch -m old-name new-name
+
+➡️ Rename another branch.
+
+git branch -d branch-name
+
+➡️ Safe delete.
+
+git branch -D branch-name
+
+➡️ Force delete.
+
+🔄 12. Switch Commands
+git switch branch-name
+
+➡️ Switch to another branch.
+
+git switch -c branch-name
+
+➡️ Create and switch to a new branch.
+
+🔀 13. Merge Commands
+git merge branch-name
+
+➡️ Merge a branch into the current branch.
+
+⚔️ 14. Merge Conflict
+
+Resolve conflict:
+
+git add .
+git commit -m "Resolved merge conflict"
+🚫 15. Ignore Commands
+
+Create:
+
+.gitignore
+
+Example:
+
+*.txt
+.env
+__pycache__/
+node_modules/
+.vscode/
+
+Check ignored file:
+
+git check-ignore filename
+🗑️ 16. Remove Commands
+git rm filename
+
+➡️ Delete tracked file.
+
+git rm --cached filename
+
+➡️ Stop tracking a file but keep it locally.
+
+git rm -r foldername
+
+➡️ Delete a tracked folder.
+
+✏️ 17. Move / Rename
+git mv oldname newname
+
+➡️ Rename or move a tracked file.
+
+🔄 18. Restore Commands
+git restore filename
+
+➡️ Undo uncommitted changes.
+
+git restore --staged filename
+
+➡️ Remove from staging area.
+
+⏪ 19. Reset Commands
+git reset --soft HEAD~1
+
+➡️ Undo last commit but keep changes.
+
+git reset --hard HEAD~1
+
+➡️ Remove last commit and all changes.
+
+↩️ 20. Revert Command
+git revert HEAD
+
+➡️ Undo a commit by creating a new commit.
+
+📦 21. Stash Commands
+git stash
+
+➡️ Save unfinished work.
+
+git stash list
+
+➡️ Show all stashes.
+
+git stash apply
+
+➡️ Restore stash.
+
+git stash pop
+
+➡️ Restore and remove stash.
+
+git stash drop stash@{0}
+
+➡️ Delete a stash.
+
+git stash show
+
+➡️ Show stash details.
+
+git stash show -p
+
+➡️ Show detailed stash changes.
+
+🏷️ 22. Tag Commands
+git tag
+
+➡️ List tags.
+
+git tag v1.0
+
+➡️ Create a tag.
+
+git show v1.0
+
+➡️ Show tag details.
